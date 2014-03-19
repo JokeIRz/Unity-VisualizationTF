@@ -9,21 +9,21 @@ public class Cutscene_Wash : CutsceneController {
 			GameObject.Find ("CutsceneCamera").GetComponent<Camera>(),
 			GameObject.Find ("Tag").transform.position,
 			200, 20),
-			"2. Put hair net on here"
+			"2. Put hair net on here."
 		);
 		
 		GUI.Label(GUI2.GUI3D(
 			GameObject.Find ("CutsceneCamera").GetComponent<Camera>(),
 			GameObject.Find ("WashTag").transform.position,
 			200, 20),
-			"3. Wash hands thoroughly here"
+			"3. Wash hands thoroughly here."
 		);
 		
 		GUI.Label(GUI2.GUI3D(
 			GameObject.Find ("CutsceneCamera").GetComponent<Camera>(),
 			GameObject.Find ("ShoeTag").transform.position,
 			200, 20),
-			"1. Replace yours shoes here"
+			"1. Replace yours shoes here."
 		);
 	}
 	
