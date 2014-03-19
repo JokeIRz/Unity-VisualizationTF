@@ -59,10 +59,10 @@ public class PlayerController : MonoBehaviour {
 			camera.orthographicSize = 2;
 			newSize = 2;
 		}
-		if(camera.orthographicSize > 30)
+		if(camera.orthographicSize > 35)
 		{
-			camera.orthographicSize = 30;
-			newSize = 30;
+			camera.orthographicSize = 35;
+			newSize = 35;
 		}
 	}
 	
