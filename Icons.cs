@@ -9,7 +9,7 @@ public class Icons : MonoBehaviour
 	void Start()
 	{
 		foreach(Transform child in transform)
-			icons.Add(child, "<b>" + child.name + "</b>");
+			icons.Add(child, "<b><color=#000>" + child.name + "</color></b>");
 	}
 	
 	void OnGUI()
