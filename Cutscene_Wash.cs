@@ -9,7 +9,7 @@ public class Cutscene_Wash : CutsceneController {
 			GameObject.Find ("CutsceneCamera").GetComponent<Camera>(),
 			GameObject.Find ("Tag").transform.position,
 			200, 20),
-			"2. Put hair net on here"
+			"2. Put hair net on here also beard net if needed"
 		);
 		
 		GUI.Label(GUI2.GUI3D(
